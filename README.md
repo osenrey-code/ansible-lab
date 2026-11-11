@@ -61,7 +61,17 @@ La salida debe mostrar el nombre de cada host, Ubuntu 24.04 y el mensaje de labo
 
 ## Evidencia de ejecución
 
-Pegar aquí una captura de pantalla de la ejecución exitosa de `ansible-playbook` y de los dos contenedores activos.
+La ejecución formal de `ansible-playbook` terminó exitosamente en ambos servidores:
+
+```text
+PLAY RECAP *********************************************************************
+server1 : ok=7 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
+server2 : ok=7 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
+```
+
+La salida confirmó la recopilación de datos, la creación de `/tmp/ansible-demo`,
+`info.txt`, `logs`, `backup` y `config`, y el mensaje de configuración correcta
+para Ubuntu.
 
 ## Entrega
 

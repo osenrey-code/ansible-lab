@@ -10,6 +10,7 @@ Estructura verificada en ambos contenedores:
 /tmp/ansible-demo/backup/
 /tmp/ansible-demo/config/
 
-Nota: la ejecución formal de ansible-playbook queda pendiente de un entorno con
-Ansible instalado (WSL, Linux o una máquina virtual). El playbook y el inventario
-están listos para ejecutarse con el comando indicado en README.md.
+EJECUCIÓN FORMAL DE ANSIBLE: EXITOSA
+
+server1: ok=7 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
+server2: ok=7 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
