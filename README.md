@@ -75,4 +75,4 @@ para Ubuntu.
 
 ## Entrega
 
-Subir esta carpeta completa a un repositorio público de GitHub y pegar aquí el enlace del repositorio.
+Repositorio público: https://github.com/osenrey-code/ansible-lab
