@@ -1,0 +1,15 @@
+EVIDENCIA DE VERIFICACIÓN LOCAL
+
+Contenedores Docker:
+server1 - Ubuntu 24.04 - activo
+server2 - Ubuntu 24.04 - activo
+
+Estructura verificada en ambos contenedores:
+/tmp/ansible-demo/info.txt
+/tmp/ansible-demo/logs/
+/tmp/ansible-demo/backup/
+/tmp/ansible-demo/config/
+
+Nota: la ejecución formal de ansible-playbook queda pendiente de un entorno con
+Ansible instalado (WSL, Linux o una máquina virtual). El playbook y el inventario
+están listos para ejecutarse con el comando indicado en README.md.
